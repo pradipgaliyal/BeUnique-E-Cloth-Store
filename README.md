@@ -57,13 +57,13 @@ When you run the project, the views should be found by Spring Boot and you shoul
 # Workflow
 - (https://github.com/pradipgaliyal/BeUnique-E-Cloth-Store/login)
 ### Controller
-- control the endpoint and also send data to view( we use ModelAndView method)
+- login API hit
 - ``` @GetMapping("login")
 	public String adminlogin() {
 		
 		return "adminlogin";
 	}```
-- whenever /login url is hit , src->main->webapp-> adminlogin.jsp file execute
+- whenever /login url is hit Frontend login execute
 ### Models
 - represent data as entity and relationship among them.
 
