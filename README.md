@@ -6,7 +6,8 @@ It includes features such as user authentication, product management, shopping c
 * Frontend-Reactjs
 * Backend-SpringBoot
 * Database-MySql
-## Fuctionality
+  
+## Backend Fuctionality
 - Hibernate configuration added( database and tables automatically create when run the project)
 - Service classes provide reusable services throughout project
 - dao classes interact with database 
